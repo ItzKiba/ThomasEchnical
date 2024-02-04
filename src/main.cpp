@@ -39,7 +39,7 @@ class $modify(ProfilePage) {
 		auto seq = CCSequence::create(tint1, tint2, nullptr);
 		auto rseq = CCRepeatForever::create(seq);
 		font->runAction(rseq);
-		font->setString("Thomas Echincal");
+		font->setString("Thomas Echnical");
 
 		auto amba = CCLabelBMFont::create("RATE AMBA", "bigFont.fnt");
 		amba->setColor({255, 160, 255});
